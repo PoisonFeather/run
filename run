@@ -3,3 +3,5 @@ xterm -e systemctl --user enable pulseaudio && systemctl --user start pulseaudio
 xterm -e git clone https://github.com/PoisonFeather/wordlist
 mv fosil /root/
 mv wordlist /root/
+cd ..
+
