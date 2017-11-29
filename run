@@ -1,6 +1,4 @@
-xterm -e git clone https://github.com/PoisonFeather/fosil
-xterm -e systemctl --user enable pulseaudio && systemctl --user start pulseaudio
-xterm -e git clone https://github.com/PoisonFeather/wordlist
+xterm -e systemctl --user enable pulseaudio && systemctl --user start pulseaudio;git clone https://github.com/PoisonFeather/fosil;xterm -e git clone https://github.com/PoisonFeather/wordlist
 mv fosil /root/
 mv wordlist /root/
 cd ..
